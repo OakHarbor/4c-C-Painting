@@ -460,7 +460,7 @@
     height: auto;
     float: left;
     margin-right: 20px;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 
 .right-card h3 {
@@ -1020,7 +1020,7 @@
     }
 
     .right-card svg {
-        margin-bottom: 190px;
+        margin-bottom: 170px;
     }
 
     /*-- -------------------------- -->
