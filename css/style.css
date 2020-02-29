@@ -7,7 +7,7 @@
 #hero {
     height: 650px;
     width: 100%;
-    background:url("../images/landing.jpg");
+    background:url("../images/img-18-compressor.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -32,7 +32,7 @@
     height: 100%;
     width: 100%;
     background: #000;
-    opacity: 0.4;
+    opacity: 0.6;
     z-index: 2;
 }
 
@@ -385,7 +385,7 @@
 }
 
 .card:nth-child(1) {
-    background:url("../images/deck.jpg");
+    background:url("../images/woode.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -397,7 +397,7 @@
 }
 
 .card:nth-child(3) {
-    background:url("../images/repair.jpg");
+    background:url("../images/kitchen-compressor\ \(1\).jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -549,7 +549,7 @@
 }
 
 .gallery-topper {
-    background: url("/images/image-11.jpg");
+    background: url("/images/img-19-compressor.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px auto 0 auto;
@@ -931,6 +931,10 @@
 
     .icon-group {
         width: 300px;
+    }
+
+    .icon-group p {
+        height: 100px;
     }
 
     .service-button {

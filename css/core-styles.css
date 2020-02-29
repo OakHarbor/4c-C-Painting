@@ -425,7 +425,7 @@ h1, h2, h3, h4, h5, h6 {
 <--- -------------------------- -*/
 
 #contact-strip {
-    background:url("../images/northwest.jpg");
+    background:url("../images/img-3-compressor.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 36px;
@@ -440,7 +440,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
     background: var(--primary);
-    opacity: .9;
+    opacity: .95;
 }
 
 .contact-group {
@@ -522,20 +522,27 @@ h1, h2, h3, h4, h5, h6 {
 
     .top {
         margin: auto !important;
+        margin-left: 0;
     }
 
     .contact-group {
         width: 600px;
         margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .contact-group h2 {
         margin: 0;
         margin-bottom: 10px;
+        text-align: left;
     }
 
     .contact-group p {
-        width: 420px;
+        width: 370px;
+        text-align: left;
+        margin-bottom: 0;
     }
 
     .contact-button {
@@ -889,6 +896,15 @@ footer p {
 	margin-right: 10px;
 }
 
+.item-3 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.item-3 p {
+    margin-bottom: 0px;
+}
+
 .branding {
 	background: #041219;
 	padding-top: 40px;
@@ -913,6 +929,11 @@ footer p {
 
     footer {
         padding-top: 100px;
+    }
+
+    footer img {
+        width: auto;
+        height: 40px;
     }
 
     .item-content p {
