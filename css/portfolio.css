@@ -4,9 +4,6 @@
 <---          LANDING           -->
 <--- -------------------------- -*/
 
-html {
-    overflow-y: scroll;
-}
 
 #hero {
     min-height: 40px;
@@ -165,7 +162,7 @@ html {
 .modal-twenty-one.clicked {
     visibility: visible;
     margin: auto;
-    z-index: 2000;
+    z-index: 20000;
     top: 0;
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -176,7 +173,19 @@ html {
 /* Clicked Images */
 
 html.clicked {
-    overflow-y: hidden;
+    overflow: hidden;
+}
+
+.modal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 /* Tablets */
@@ -191,10 +200,6 @@ html.clicked {
         font-size: 3.125em;
         width: 100%;
     }
-
-    /*-- -------------------------- -->
-    <---          GALLERY           -->
-    <--- -------------------------- -*/
 
     .gallery {
         display: -webkit-box;
@@ -218,6 +223,11 @@ html.clicked {
 
     .modal img {
         width: 100%;
+    }
+
+    .contact-button {
+        width: 250px;
+        margin: 15px auto;
     }
 }
 

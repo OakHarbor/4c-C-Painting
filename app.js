@@ -100,6 +100,7 @@ var $twentyOne = $("#twenty-one");
 $one.on("click", function(e) {
   $modalOne.addClass("clicked");
   $html.addClass("clicked");
+  e.preventDefault();
 });
 
 $two.on("click", function(e) {
