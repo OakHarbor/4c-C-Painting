@@ -6,7 +6,8 @@
 #hero {
     min-height: 400px;
     height: 400px;
-    background: url('/images/repair.jpg');
+    height: 400px;
+    background: url('/images/img-4-compressor.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -24,7 +25,7 @@
 }
 
 #home-h {
-    width: 200px;
+    width: 280px;
     text-align: center;
     font-size: 3.438em;
     position: relative;
@@ -388,7 +389,7 @@
     height: 400px;
     width: 100%;
     margin-bottom: 50px;
-    background: url("/images/mission.jpg");
+    background: url("/images//img-2-compressor.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -768,16 +769,17 @@
     <--- -------------------------- -*/
 
     #hero {
-        height: 1000px;
+        height: 600px;
         background-attachment: fixed;
         position: relative;
     }
 
     #home-h {
+        width: 400px;
         font-size: 4.375em;
-        -webkit-transform: translateY(-100px);
-            -ms-transform: translateY(-100px);
-                transform: translateY(-100px);
+        -webkit-transform: translateY(50px);
+            -ms-transform: translateY(50px);
+                transform: translateY(50px);
     }
 
     #hero img {

@@ -27,7 +27,7 @@
 
 #home-h {
     text-align: center;
-    font-size: 3.125em;
+    font-size: 3.438em;
     width: auto;
     margin: auto !important;
     position: relative;
@@ -49,7 +49,7 @@
     position: absolute;
     width: 180px;
     height: 200px;
-    border: 10px solid rgba(255,186,25, .4);
+    border: 10px solid rgba(253,118,45, .4);
     z-index: -1;
 }
 
@@ -240,6 +240,7 @@ html.clicked {
 @media screen and (min-width: 1025px) {
 
     #home-h {
+        font-size: 4.375em;
         -webkit-transform: translateY(50px);
         -ms-transform: translateY(50px);
             transform: translateY(50px);

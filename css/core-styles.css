@@ -855,6 +855,8 @@ footer {
 }
 
 footer img {
+    height: 70px;
+    width: auto;
     margin-bottom: 30px;
 }
 
@@ -928,7 +930,7 @@ footer p {
 
     footer img {
         width: auto;
-        height: 40px;
+        height: 80px;
     }
 
     .item-content p {
@@ -942,7 +944,12 @@ footer p {
 
 	footer {
 		padding-top: 100px;
-	}
+    }
+    
+    footer img {
+        height: 80px;
+        width: auto;
+    }
 
 	.footer-container {
 		display: -webkit-box;

@@ -7,7 +7,7 @@
 #hero {
     height: 650px;
     width: 100%;
-    background:url("../images/img-18-compressor.jpg");
+    background: url("/images/img-18-compressor.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -256,7 +256,7 @@
 <--- -------------------------- -*/
 
 .content {
-    background:url("../images/paintbrush.jpg");
+    background:url("../images/img-14-compressor.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
@@ -626,7 +626,7 @@
 <--- -------------------------- -*/
 
 #trust-us {
-    background:url("../images/northwest.jpg");
+    background:url("../images/img-20-compressor.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -1181,10 +1181,10 @@
     #hero {
         height: 800px;
         width: 100%;
-        background:url("../images/landing.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        background-position: bottom;
         color: #fff;
         position: relative;
         display: -webkit-box;
@@ -1406,6 +1406,10 @@
                 align-items: center;
     }
 
+    .icon-group {
+        margin-bottom: 0;
+    }
+
     .header-h3 {
         width: 600px;
         margin-top: 120px !important;
@@ -1444,6 +1448,10 @@
     .card h2 {
         margin-left: 0;
         margin-top: 0;
+    }
+
+    .icon-group p {
+        height: 230px;
     }
 
     /*-- -------------------------- -->
