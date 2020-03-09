@@ -816,8 +816,8 @@
     }
 
     .about-container img {
-        height: 400px;
-        width: 300px;
+        height: 550px;
+        width: auto;
     }
 
     .about-group {
