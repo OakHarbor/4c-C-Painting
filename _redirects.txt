@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://4c-painting.netlify.com/* https://4cpaintinginc.com/:splat 301!
