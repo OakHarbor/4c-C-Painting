@@ -657,7 +657,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	.side-nav ul li {
 		margin: 0 50px 0 0;
-		text-align: right;
+        text-align: right;
 	}
 
 	.call-us {
@@ -686,15 +686,15 @@ h1, h2, h3, h4, h5, h6 {
 		-o-transition: .2s ease;
 		transition: .2s ease;
 		font-size: 1.125em;
-	}
+    }
 
 	.side-nav ul li a:hover {
 		cursor: pointer;
-		color: #f5f5f5;
 		opacity: .8;
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
-		transition: .2s ease;
+        transition: .2s ease;
+        border-bottom: 4px solid var(--primary);
 	}
 
 	.side-nav li {
