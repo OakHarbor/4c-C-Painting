@@ -5,7 +5,8 @@
 <--- -------------------------- -*/
 
 #hero {
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh - 200px);
+    height: calc(100vh - 150px);
     width: 100%;
     background: url("/images/img-18-compressor.jpg");
     background-repeat: no-repeat;
