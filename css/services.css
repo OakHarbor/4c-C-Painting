@@ -159,7 +159,7 @@
 }
 
 .mission-container h2 {
-    font-size: 1.250em;
+    font-size: 2.143em;
     margin-bottom: 20px;
     color: #fff;
     position: relative;
@@ -167,7 +167,7 @@
 }
 
 .mission-container h2 span {
-    display: block;
+    display: inline-block;
     color: var(--primary);
 }
 
@@ -412,7 +412,11 @@
 
     .mission-container h2 {
         width: 500px;
-        font-size: 1.667em;
+        font-size: 2.5em;
+    }
+
+    .mission-container h2 span {
+        display: inline-block
     }
 
     .mission-container p {
