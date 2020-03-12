@@ -9,6 +9,16 @@
 	        box-sizing: border-box;
 }
 
+.promotion {
+    background: var(--primary);
+    text-align: center;
+}
+
+.promotion p {
+    color: #fff;
+    padding: 15px 0;
+}
+
 :root {
     --primary: #f16c23;
 }
