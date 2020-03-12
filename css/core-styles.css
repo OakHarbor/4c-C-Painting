@@ -901,6 +901,32 @@ footer p {
     margin-bottom: 0px;
 }
 
+a i {
+    font-size: 1.5em;
+    margin-top: 25px;
+    transition: .3s ease;
+}
+
+a i:hover {
+    cursor: pointer;
+    opacity: .6;
+    transition: .3s ease;
+}
+
+.bbb {
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: .3s ease;
+}
+
+.bbb:hover {
+    cursor: pointer;
+    opacity: .6;
+    transition: .3s ease;
+}
+
 .branding {
 	background: #041219;
 	padding-top: 40px;
