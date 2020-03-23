@@ -896,12 +896,6 @@ footer p {
 	position: relative;
 }
 
-.footer-call i {
-	color: var(--primary);
-	font-size: 1.500em;
-	margin-right: 10px;
-}
-
 .item-3 a {
     color: #ffffff;
     text-decoration: none;
@@ -911,15 +905,24 @@ footer p {
     margin-bottom: 0px;
 }
 
-a i {
-    font-size: 1.5em;
-    margin-top: 25px;
-    transition: .3s ease;
-}
-
 a i:hover {
     cursor: pointer;
     opacity: .6;
+    transition: .3s ease;
+}
+
+.footer-item svg {
+    width: 15px;
+    height: auto;
+    margin-right: 15px;
+    -webkit-transform: translateY(1px);
+        -ms-transform: translateY(1px);
+            transform: translateY(1px);
+}
+
+.icon {
+    width: 25px !important;
+    margin-top: 25px;
     transition: .3s ease;
 }
 
