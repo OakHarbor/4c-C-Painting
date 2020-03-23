@@ -398,7 +398,7 @@
 }
 
 .card:nth-child(3) {
-    background:url("../images/kitchen-compressor\ \(1\).jpg");
+    background:url("../images/kitchen.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
