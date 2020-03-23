@@ -545,6 +545,10 @@
             align-items: center;
 }
 
+.mobile-remove {
+    display: none;
+}
+
 .gallery img {
     width: 100%;
 }
@@ -1061,6 +1065,10 @@
                 justify-content: center;
     }
 
+    .mobile-remove {
+        display: block;
+    }
+
     .gallery-group {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1531,6 +1539,8 @@
     /*-- -------------------------- -->
     <---           GALLERY          -->
     <--- -------------------------- -*/
+
+    
 
     .gallery-group {
         margin: auto;
