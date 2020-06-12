@@ -1540,10 +1540,8 @@
     <---           GALLERY          -->
     <--- -------------------------- -*/
 
-    
-
     .gallery-group {
-        margin: auto;
+        margin: 0;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1564,8 +1562,14 @@
 
     .gallery-group img {
         width: 20%;
+        height: auto;
+        max-height: 554px;
         margin: 0;
         padding: 0;
+    }
+
+    .mobile-remove {
+        display: block;
     }
 
     /*-- -------------------------- -->
