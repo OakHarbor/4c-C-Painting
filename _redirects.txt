@@ -2,6 +2,7 @@
 https://4c-painting.netlify.com/* https://www.4cpaintinginc.com/:splat 301!
 https://www.4c-painting.netlify.com/* https://www.4cpaintinginc.com/:splat 301!
 http://www.4c-painting.netlify.com/* https://www.4cpaintinginc.com/:splat 301!
+http://4c-painting.netlify.com/* https://www.4cpaintinginc.com/:splat 301!
 
 https://4cpaintinginc.com/* https://www.4cpaintinginc.com/:splat 301!
 http://www.4cpaintinginc.com/* https://www.4cpaintinginc.com/:splat 301!
